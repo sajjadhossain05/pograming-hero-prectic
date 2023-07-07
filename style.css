@@ -40,9 +40,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image:linear-gradient(45deg,#000000,#8f8787);
+    background-image: linear-gradient(90deg,#111010,#837b7b);
+
     height: 100vh;
     color: white;
+    background-size: cover;
+    
+
 }
 .banner-img-icone-2{
     width: 400spx;
@@ -110,6 +114,24 @@
     cursor: pointer;
 }
 .border:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 10px 10px 20px rgb(68, 66, 66);
+}
+.more-btn{
+    text-align: center;
+    padding: 50px 0;
+
+}
+.more-btn-mens{
+    padding: 10px 30px;
+    background-image: linear-gradient(45deg, orange, red);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    transition: 0.6s ease;
+}
+.more-btn-mens:hover{
+    background-color: #180bcc;
+    color: white;
+    transform: scale(1.1);
 }
